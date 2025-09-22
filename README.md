@@ -21,7 +21,7 @@
 
 - *Real-Time Bus Tracking*: View the live location of buses and routes on an interactive, theme-adaptive map.
 - *Multilingual Support*: Fully translated interface in English, Kannada, Hindi, Tamil, Telugu, and Malayalam.
-- *Dual User Roles: Separate, tailored experiences for both regular **Users* and *Drivers*.
+- *Dual User Roles*: Separate, tailored experiences for both regular **Users** and **Drivers**.
 - *Driver Dashboard*: A dedicated interface for drivers to manage their GPS status and send real-time alerts to passengers.
 - *Community Reporting*: Users can report delays and crowd levels to help fellow commuters.
 - *Lost & Found Portal*: A community-driven space to post and search for lost or found items on buses.
@@ -61,30 +61,37 @@ Follow these instructions to set up and run the project locally for development 
 
 ### Installation & Setup
 
-1.  *Clone the repository:*
-    sh
-    git clone https://github.com/your-username/gramyatra.git
-    cd gramyatra
-    
+1. Clone the repository:
 
-2.  *Install dependencies:*
-    sh
-    npm install
-    
+git clone https://github.com/your-username/gramyatra.git
+cd gramyatra
 
-3.  *Set up environment variables:*
-    -   Create a new file named .env in the root of the project.
-    -   Add your Google Gemini API key to this file. The key is necessary for the AI features to work.
-    env
-    # .env
-    API_KEY=YOUR_GEMINI_API_KEY_HERE
-    
+text
 
-4.  *Run the development server:*
-    sh
-    npm run dev
-    
-    The application will now be running on http://localhost:5173 (or another port if 5173 is busy).
+2. Install dependencies:
+
+npm install
+
+text
+
+3. Set up environment variables:
+   - Create a new file named `.env` in the root of the project.
+   - Add your Google Gemini API key to this file. The key is necessary for the AI features to work.
+
+Your `.env` file should look like this:
+
+.env
+API_KEY=YOUR_GEMINI_API_KEY_HERE
+
+text
+
+4. Run the development server:
+
+npm run dev
+
+text
+
+The application will now be running on [http://localhost:5173](http://localhost:5173) (or another port if 5173 is busy).
 
 ---
 
@@ -92,23 +99,23 @@ Follow these instructions to set up and run the project locally for development 
 
 The project follows a standard React application structure:
 
-
 gramyatra/
-├── public/                # Static assets (icons, etc.)
+├── public/ # Static assets (icons, etc.)
 ├── src/
-│   ├── components/        # Reusable UI components (buttons, inputs, icons)
-│   ├── contexts/          # React Context providers (e.g., ToastContext)
-│   ├── hooks/             # Custom hooks (e.g., useToast, useTranslations)
-│   ├── screens/           # Top-level page components (HomeScreen, WelcomeScreen)
-│   ├── services/          # API layer (mock backend simulation)
-│   ├── App.tsx            # Main application component, handles routing and state
-│   ├── index.tsx          # Entry point for the React application
-│   └── translations.ts    # Multilingual translation strings
-├── .env                   # Environment variables (local, not committed)
-├── index.html             # Main HTML entry file
-├── package.json           # Project dependencies and scripts
-└── vite.config.ts         # Vite build configuration
+│ ├── components/ # Reusable UI components (buttons, inputs, icons)
+│ ├── contexts/ # React Context providers (e.g., ToastContext)
+│ ├── hooks/ # Custom hooks (e.g., useToast, useTranslations)
+│ ├── screens/ # Top-level page components (HomeScreen, WelcomeScreen)
+│ ├── services/ # API layer (mock backend simulation)
+│ ├── App.tsx # Main application component, handles routing and state
+│ ├── index.tsx # Entry point for the React application
+│ └── translations.ts # Multilingual translation strings
+├── .env # Environment variables (local, not committed)
+├── index.html # Main HTML entry file
+├── package.json # Project dependencies and scripts
+└── vite.config.ts # Vite build configuration
 
+text
 
 ---
 
@@ -116,9 +123,13 @@ gramyatra/
 
 This project is licensed under the MIT License.
 
-[![Author](https://img.shields.io/badge/Author-Chirag%20O-blue.svg)](https://github.com/Chirag-O2004)
-[![Author](https://img.shields.io/badge/Author-Durga_Prasadh%20K-blue.svg)](https://github.com/KDurgaPrasad116)
-[![Author](https://img.shields.io/badge/Author-Jai_Keerthana%20S-blue.svg)](https://github.com/JaiKeerthanaS)
-[![Author](https://img.shields.io/badge/Author-Kalashree%20R%20M-blue.svg)](https://github.com/KalashreeRM))
-[![Author](https://img.shields.io/badge/Author-Karthik%20S%20B-blue.svg)](https://github.com/Karthik_s)
-[![Author](https://img.shields.io/badge/Author-Keerthan%20B%20M-blue.svg)](https://github.com/Keerthan2024)
+---
+
+### Authors
+
+- [Chirag O](https://github.com/Chirag-O2004)
+- [Durga Prasadh K](https://github.com/KDurgaPrasad116)
+- [Jai Keerthana S](https://github.com/JaiKeerthanaS)
+- [Kalashree R M](https://github.com/KalashreeRM)
+- [Karthik S B](https://github.com/Karthik_s)
+- [Keerthan B M](https://github.com/Keerthan2024)
