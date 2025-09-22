@@ -1,6 +1,6 @@
 # GramYatra: Real-Time Rural Bus Tracking 🇮🇳
 
-![GramYatra Welcome Screen](welcome.jpg)
+![GramYatra Welcome Screen](ByteRiders/welcome.jpg)
 
 **GramYatra** is an AI-powered, multilingual web application designed to revolutionize public transport in rural India. It provides real-time bus tracking, journey planning, fare estimation, and a suite of other features to empower commuters and drivers alike. This project was built with a focus on accessibility, ease of use, and leveraging modern AI to solve real-world problems.
 
